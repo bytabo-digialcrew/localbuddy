@@ -24,7 +24,7 @@ h1 {
 
 p { font-size:1.4em }
 
-p .utterance { font-size:2.4em; line-height:0.95; display:block; }
+p .utterance { font-size:2.4em; line-height:0.9; display:block; }
 
 #footer
 { 
