@@ -12,12 +12,13 @@
     fclose($myfile);
   }
 
+/*
   if(isset($_GET)){
     $myfile = fopen("data/data.txt", "w") or die("Unable to open file!");
     $txt = "asdasd\n";
     fwrite($myfile, $txt);
     fclose($myfile);
   }
-
+*/
 
  ?>
