@@ -3,7 +3,6 @@ var lastState = "initial";
 $(document).ready(function() {
 	readState();
 	loadContent("default");
-
 });
 
 function readState()
