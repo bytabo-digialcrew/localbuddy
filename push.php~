@@ -2,11 +2,16 @@
   print_r($_POST);
   print_r($_GET);
 
+/*
   if(isset($_GET)){
     $myfile = fopen("data/data.txt", "w") or die("Unable to open file!");
     $txt = $_GET['destination'];
     fwrite($myfile, $txt);
     fclose($myfile);
   }
+<<<<<<< HEAD
+=======
+*/
+>>>>>>> c543cb3ab46d34e618d37461acbb8f8706d26771
 
  ?>

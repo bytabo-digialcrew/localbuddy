@@ -3,29 +3,37 @@
 <head>
 <meta charset="UTF-8">
 <title>Ask local buddy</title>
-<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script type="text/javascript" src="script/jquery-3.2.0.min.js" />
-<script type="text/javascript" src="script/main.js" />
+<script type="text/javascript" src="script/jquery-3.2.0.min.js"></script>
+<script type="text/javascript" src="script/main.js"></script>
 
 </head>
 
 <body>
-  <h1>
-      <img src="images/logoLocalBuddy.png" />
-      <span>Frag<br />LocalBuddy</span>
-  </h1>
+  <div class="header-index">
+    <h1>
+        <img src="images/logoLocalBuddy.png" />
+        <div class="headline">Frag<br />LocalBuddy</div>
+    </h1>
+  </div>
+  <div class="content">
+    <h2>Brauchst du mehr Infos zu diesem Ort?</h2>
+    <br><br>
+    <p>Sag einfach:
+      <br>
+      <span class="utterance">»Alexa, frag LocalBuddy...«</span>
+    </p>
+    <br>
+    <br>
+    <p>z.B. nach Infos über die Location, Cafés, Restaurants, Events, Verkehrsmitteln...</p>
 
-  <h2>Brauchst du mehr Infos zu diesem Ort?</h2>
-  <p>Sag einfach:
-    <span class="utterance">»Alexa, frag LocalBuddy...«</span>
-  </p>
-  <p>z.B. nach Infos über die Location, Cafés, Restaurants, Events, Verkehrsmitteln...</p>
+    <div id="footer">
+      <img src="images/logoSmall.png" />
+    </div>
 
-  <div id="footer">
-    <img src="images/logoSmall.png" />
   </div>
 </body>
 
