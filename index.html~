@@ -20,6 +20,7 @@
     </h1>
   </div>
   <div class="content">
+    <div class="realContent">
     <h2>Brauchst du mehr Infos zu diesem Ort?</h2>
     <br><br>
     <p>Sag einfach:
@@ -29,6 +30,7 @@
     <br>
     <br>
     <p>z.B. nach Infos über die Location, Cafés, Restaurants, Events, Verkehrsmitteln...</p>
+    </div>
 
     <div id="footer">
       <img src="images/logoSmall.png" />

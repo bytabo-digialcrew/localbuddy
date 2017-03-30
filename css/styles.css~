@@ -42,7 +42,7 @@ h1 {
   padding: 50px 5px;
   position:relative;
   min-height:150px;
-  color:white;
+  color:white !important;
   padding:20px 20px 20px 140px !important;
   font-size:5em !important;
   font-weight:bold !important;

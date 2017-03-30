@@ -2,6 +2,7 @@ var lastState = "initial";
 
 $(document).ready(function() {
 	readState();
+	loadContent("default");
 
 });
 
@@ -21,12 +22,11 @@ function receiveState(response)
 
 	if(newState != lastState && newState.length > 0)
 	{
-		alert(newState);
 		setState(newState);
-		timeout = 10000;
+		timeout = 1000;
 	}
 	
-	setTimeout(readState(), timeout);
+	setTimeout(readState, timeout);
 
 }
 
@@ -43,17 +43,55 @@ function setState(newState)
 	{
 		case "toilette":
 		{
-			//setTitle("Gabelmann antwortet:");
+			setTitle("Gabelmann antwortet:");
+			setColor("#c8beb7", "black");
+			setIcon("logoGabelmann");
+			loadContent("toilet");
 			break;
 		}
-
-
+		case "restaurants":
+		{
+			setTitle("Gabelmann antwortet:");
+			setColor("#c8beb7", "black");
+			setIcon("logoGabelmann");
+			loadContent("restaurants");
+			break;
+		}
+		default:
+		{
+			setTitle(lastState);
+			setColor("#4b8998", "white");
+			setIcon("logoLocalBuddy");
+			loadContent("default");
+			break;
+		}
 	}
-	setTitle(lastState);
 }
 
 function setTitle(newTitle)
 {
-        $("h1 span").html(newTitle);
+        $("h1 .headline").html(newTitle);
 
+}
+
+function setColor(color, fg)
+{
+	$(".header-index").css("background", color);
+	$("h1").css("color", fg);
+}
+
+function setIcon(name)
+{
+
+}
+
+function loadContent(id)
+{
+	$.ajax("pages/" + id + ".html", { dataType : "text", success: receiveContent, error: receiveError });
+}
+
+function receiveContent(response)
+{
+	//alert(response);
+	$(".realContent").html(response);
 }
