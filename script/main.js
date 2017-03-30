@@ -7,9 +7,8 @@ $(document).ready(function() {
 
 function readState()
 {
-	
 //	$.ajax("http://asklocalbuddy.bytabo.de/request.php", { dataType : "json", success: receiveState });
-	$.ajax("request.php", { dataType : "json", success: receiveState, error: receiveError });
+	$.ajax("request.php", { dataType : "json", success: receiveState, error: receiveError, cache:false });
 
 }
 
