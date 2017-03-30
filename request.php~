@@ -8,7 +8,7 @@
     $txt = file_get_contents("data/data.txt");
 
   echo "{\n";
-  echo '"State":"' . trim($txt) . '"' . "\n";
+  echo '"State":"' . $txt . '"' . "\n";
 
   echo "}";
 
