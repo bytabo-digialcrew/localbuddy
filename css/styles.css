@@ -65,6 +65,34 @@ h1 {
   font-size: 54px;
   text-align: center;
   margin-top: 40px;
+  display:block;
+  text-decoration:none
+}
+
+.train {
+  padding: 30px;
+  color: #000;
+  font-size: 54px;
+  text-align: left;
+  margin-top: 40px;
+}
+.train .train1 {
+  width:160px;
+  display:inline-block;
+}
+.train .train2 {
+  display:inline-block;
+  font-weight:bold;
+}
+
+.train .train3 {
+  display:block;
+  padding-left:175px;
+}
+
+.train .train4 {
+  display:inline-block;
+  font-weight:bold;
 }
 
 p { font-size:3em }

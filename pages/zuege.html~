@@ -1,0 +1,20 @@
+
+
+    <!-- headline -->
+    <h2 class="page">Hier die nächsten Züge nach Nürnberg:</h2>
+
+    <div class="train" style="background: #e9afaf">
+      <span class="train1">17:24</span>
+      <span class="train2">RE25542</Span>
+      <span class="train3">Ankunft:
+      <span class="train4">18:30</span></span>
+    </div>
+
+    <div class="train" style="background: #e9afaf">
+      <span class="train1">17:36</span>
+      <span class="train2">ICE572</Span>
+      <span class="train3">Ankunft:
+      <span class="train4">18:13</span></span>
+    </div>
+
+    <p>Wähle den Zug, zu dem du mehr Infos möchtest, oder frag einfach nach Details.</p>

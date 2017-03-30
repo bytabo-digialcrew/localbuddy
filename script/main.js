@@ -81,6 +81,22 @@ function setState(newState)
 			loadContent("tanzlinde");
 			break;
 		}
+		case "zuege": 
+		{
+			setTitle("Bahnhof Bamberg antwortet:");
+			setColor("#e9afaf", "black");
+			setIcon("logoBahnhof");
+			loadContent("zuege");
+			break;
+		}
+		case "bahnsteig": 
+		{
+			setTitle("Bahnhof Bamberg antwortet:");
+			setColor("#e9afaf", "black");
+			setIcon("logoBahnhof");
+			loadContent("bahnsteig");
+			break;
+		}
 		default:
 		{
 			setTitle("Frag<br />LocalBuddy");

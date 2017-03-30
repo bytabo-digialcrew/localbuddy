@@ -16,10 +16,7 @@
       Bring mich hin
     </div>
 
-
-
-    <div id="footer">
-      <img src="../images/logoSmall.png" />
-    </div>
-
+    <a class="button" style="background: #b7c8b7" href="http://tanzlindenmuseum.de/">
+      Zeig mir mehr
+    </a>
 
