@@ -1,0 +1,30 @@
+GebOrte wo ist {Sign}
+GebOrte wo ist die {Sign}
+GebOrte wo ist das {Sign}
+GebOrte wo ist die nächste {Sign}
+GebOrte wo ist das nächste {Sign}
+GebOrte wo die nächste {Sign} ist
+GebOrte wo das nächste {Sign} ist
+GebOrte wo der nächste {Sign} ist
+GebOrte wo {Sign} ist
+GebOrte wo die {Sign} ist
+GebOrte wo der {Sign} ist
+GebOrte wo das {Sign} ist
+GebOrte wo ich die {Sign} finde
+GebOrte wo ich den {Sign} finde
+GebOrte wo ich  {Sign} finde
+
+HistoryIntent Wer ist das
+HistoryIntent Wer bist du
+
+HistoryPoem wie ist dein Gedicht
+HistoryPoem sag mir dein gedicht
+
+FoodIntent Ich habe Hunger
+
+RestaurantIntent Wo gibt es das nächste Bier
+RestaurantIntent Ich habe durst
+RestaurantIntent Bier her oder ich fall um
+RestaurantIntent Ich will ein Bier
+RestaurantIntent Ich mag ein Bier
+

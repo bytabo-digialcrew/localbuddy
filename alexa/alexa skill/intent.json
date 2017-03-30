@@ -1,0 +1,28 @@
+{
+"intents": [
+ {
+   "intent": "GebOrte",
+   "slots": [
+     {
+       "name": "Sign",
+       "type": "LIST_OF_SIGNS"
+     }
+   ]
+ },
+ {
+   "intent": "AMAZON.HelpIntent"
+ },
+  {
+   "intent": "HistoryIntent"
+ },
+ {
+     "intent": "HistoryPoem"
+ },
+ {
+   "intent": "FoodIntent"
+ },
+ {
+   "intent": "RestaurantIntent"
+ }
+]
+}
