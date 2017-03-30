@@ -64,6 +64,14 @@ function setState(newState)
 			loadContent("history");
 			break;
 		}
+		case "gedicht":
+		{
+			setTitle("Gabelmann<br />dichtet:");
+			setColor("#c8beb7", "black");
+			setIcon("logoGabelmann");
+			loadContent("gedicht");
+			break;
+		}
 		case "speisekarte":
 		{
 			setTitle("Die Tanzlinde antwortet:");
