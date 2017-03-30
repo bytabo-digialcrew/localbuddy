@@ -43,7 +43,7 @@ function setState(newState)
 	{
 		case "toilette":
 		{
-			setTitle("Gabelmann antwortet:");
+			setTitle("Gabelmann<br />antwortet:");
 			setColor("#c8beb7", "black");
 			setIcon("logoGabelmann");
 			loadContent("toilet");
@@ -51,15 +51,39 @@ function setState(newState)
 		}
 		case "restaurants":
 		{
-			setTitle("Gabelmann antwortet:");
+			setTitle("Gabelmann<br />antwortet:");
 			setColor("#c8beb7", "black");
 			setIcon("logoGabelmann");
 			loadContent("restaurants");
 			break;
 		}
+		case "history":
+		{
+			setTitle("Gabelmann<br />antwortet:");
+			setColor("#c8beb7", "black");
+			setIcon("logoGabelmann");
+			loadContent("history");
+			break;
+		}
+		case "speisekarte":
+		{
+			setTitle("Die Tanzlinde antwortet:");
+			setColor("#b7c8b7", "black");
+			setIcon("logoTanzlinde");
+			loadContent("speisekarte");
+			break;
+		}
+		case "tanzlinde":
+		{
+			setTitle("Die Tanzlinde antwortet:");
+			setColor("#b7c8b7", "black");
+			setIcon("logoTanzlinde");
+			loadContent("tanzlinde");
+			break;
+		}
 		default:
 		{
-			setTitle(lastState);
+			setTitle("Frag<br />LocalBuddy");
 			setColor("#4b8998", "white");
 			setIcon("logoLocalBuddy");
 			loadContent("default");
